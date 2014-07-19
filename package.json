@@ -1,0 +1,33 @@
+{
+  "name": "bash.js",
+  "version": "0.0.0",
+  "description": "Bash built-ins, the Javascript way",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piranna/bash.js.git"
+  },
+  "keywords": [
+    "Bash",
+    "cli",
+    "shell",
+    "built-ins"
+  ],
+  "author": "Jesús Leganés Combarro 'piranna' <piranna@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piranna/bash.js/issues"
+  },
+  "homepage": "https://github.com/piranna/bash.js",
+  "bin": {
+    "ls": "lib/ls.js",
+    "sort": "lib/sort.js"
+  },
+  "dependencies": {
+    "glob": "^4.0.3",
+    "minimist": "^0.2.0"
+  }
+}
