@@ -17,7 +17,7 @@ Commands
 --------
 
 ### textutils
-- [ ] cat
+- [x] cat
 - [ ] cksum
 - [ ] comm
 - [ ] csplit
@@ -43,3 +43,61 @@ Commands
 - [ ] unexpand
 - [ ] uniq
 - [ ] wc
+
+### fileutils
+- [ ] chgrp
+- [ ] chmod
+- [ ] chown
+- [ ] cp
+- [ ] dd
+- [ ] df
+- [ ] dir
+- [ ] dircolors
+- [ ] du
+- [ ] ginstall
+- [ ] ln
+- [x] ls
+- [ ] mkdir
+- [ ] ~~mkfifo~~
+- [ ] ~~mknod~~
+- [ ] mv
+- [ ] rm
+- [ ] rmdir
+- [ ] sync
+- [ ] touch
+- [ ] vdir
+
+### sh utils
+- [ ] basename
+- [ ] chroot
+- [x] date
+- [ ] dirname
+- [ ] echo
+- [ ] ~~env~~
+- [ ] expr
+- [ ] false
+- [ ] groups
+- [ ] hostname
+- [ ] id
+- [ ] logname
+- [ ] pathchk
+- [ ] printenv
+- [ ] printf
+- [x] pwd
+- [ ] sleep
+- [ ] tee
+- [ ] test
+- [ ] true
+- [ ] ~~tty~~
+- [ ] ~~users~~
+- [ ] ~~who~~
+- [ ] ~~whoami~~
+- [ ] yes
+- [ ] ~~nice~~
+- [ ] nohup
+- [ ] ~~su~~
+- [ ] ~~stty~~
+- [ ] uname
+
+### extras
+- [x] grep
