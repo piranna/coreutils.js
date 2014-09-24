@@ -72,7 +72,7 @@ Commands
 - [ ] chroot
 - [x] **date** needs arguments
 - [ ] dirname
-- [ ] echo
+- [x] **echo** needs escape of backslash
 - [ ] ~~env~~
 - [ ] expr
 - [ ] false
