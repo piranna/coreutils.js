@@ -70,7 +70,7 @@ Commands
 ### sh utils
 - [ ] basename
 - [ ] chroot
-- [x] date
+- [x] **date** needs arguments
 - [ ] dirname
 - [ ] echo
 - [ ] ~~env~~
