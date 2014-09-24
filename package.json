@@ -27,6 +27,7 @@
     "sort": "lib/sort.js"
   },
   "dependencies": {
+    "byline": "Tsenzuk/node-byline",
     "glob": "^4.0.3",
     "map-stream": "^0.1.0",
     "minimist": "^0.2.0",
