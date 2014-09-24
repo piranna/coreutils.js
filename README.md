@@ -100,4 +100,5 @@ Commands
 - [ ] uname
 
 ### extras
+- [x] **cd** needs arguments
 - [x] grep
