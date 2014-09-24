@@ -17,7 +17,7 @@ Commands
 --------
 
 ### textutils
-- [x] cat
+- [x] **cat** needs show-nonprinting
 - [ ] cksum
 - [ ] comm
 - [ ] csplit
