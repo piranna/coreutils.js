@@ -27,6 +27,7 @@
     "sort": "lib/sort.js"
   },
   "dependencies": {
+    "async": "^0.9.0",
     "glob": "^4.0.3",
     "inherits": "^2.0.1",
     "map-stream": "^0.1.0",
