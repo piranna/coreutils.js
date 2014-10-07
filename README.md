@@ -77,7 +77,6 @@ Commands
 - [x] **echo** needs escape of backslash
 - [ ] ~~env~~
 - [ ] expr
-- [ ] false
 - [ ] groups
 - [ ] hostname
 - [ ] id
@@ -85,11 +84,9 @@ Commands
 - [ ] pathchk
 - [ ] printenv
 - [ ] printf
-- [x] pwd
 - [ ] sleep
 - [ ] tee
 - [ ] test
-- [ ] true
 - [ ] ~~tty~~
 - [ ] ~~users~~
 - [ ] ~~who~~
@@ -101,6 +98,24 @@ Commands
 - [ ] ~~stty~~
 - [ ] uname
 
-### extras
+### [Posix](http://pubs.opengroup.org/onlinepubs/009604599/utilities/xcu_chap02.html#tag_02_09_01_01)
+- [ ] alias
+- [ ] bg
 - [x] **cd** needs arguments
+- [ ] command
+- [ ] false
+- [ ] fc
+- [ ] fg
+- [ ] getopts
+- [ ] jobs
+- [ ] kill
+- [ ] newgrp
+- [x] pwd
+- [ ] read
+- [ ] true
+- [ ] umask
+- [ ] unalias
+- [ ] wait
+
+### extras
 - [x] **grep** needs arguments
