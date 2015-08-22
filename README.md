@@ -5,14 +5,14 @@ Basic command line utilities, the Javascript way
 
 
 This project is an implementation of the
-[GNU Coreutils](http://www.gnu.org/software/coreutils/) commands in Javascript,
+[GNU Coreutils](http://www.gnu.org/software/coreutils) commands in Javascript,
 adding an object-oriented design and some Node.js
 [stream](http://nodejs.org/api/stream.html) features while we were there :-)
 
 This project has got inspiration and ~~stolen~~ borrowed code fragments from
 [shelljs](https://github.com/arturadib/shelljs) and
 [bashful](https://github.com/substack/bashful) projects, and has implemented
-some ideas from [TermKit](http://acko.net/blog/on-termkit/).
+some ideas from [TermKit](http://acko.net/blog/on-termkit).
 
 
 Commands
@@ -36,7 +36,7 @@ Commands
 - [ ] pr
 - [ ] ptx
 - [ ] sha1sum
-- [ ] sort
+- [x] sort
 - [ ] split
 - [ ] sum
 - [ ] tac

@@ -1,14 +1,14 @@
 {
-  "name": "bash.js",
+  "name": "coreutils.js",
   "version": "0.0.0",
-  "description": "Bash built-ins, the Javascript way",
-  "main": "lib/index.js",
+  "description": "Basic command line utilities, the Node.js way",
+  "main": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/piranna/bash.js.git"
+    "url": "https://github.com/piranna/coreutils.js.git"
   },
   "keywords": [
     "Bash",
@@ -19,12 +19,16 @@
   "author": "Jesús Leganés Combarro 'piranna' <piranna@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/piranna/bash.js/issues"
+    "url": "https://github.com/piranna/coreutils.js/issues"
   },
-  "homepage": "https://github.com/piranna/bash.js",
+  "homepage": "https://github.com/piranna/coreutils.js",
   "bin": {
-    "ls": "lib/ls.js",
-    "sort": "lib/sort.js"
+    "cat":  "bin/cat.js",
+    "date": "bin/date.js",
+    "echo": "bin/echo.js",
+    "grep": "bin/grep.js",
+    "ls":   "bin/ls.js",
+    "sort": "bin/sort.js"
   },
   "dependencies": {
     "async": "^0.9.0",
