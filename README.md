@@ -53,7 +53,7 @@ Commands
 - [ ] cp
 - [ ] dd
 - [ ] df
-- [ ] dir
+- [x] dir
 - [ ] dircolors
 - [ ] du
 - [ ] install
