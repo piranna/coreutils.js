@@ -73,7 +73,7 @@ Commands
 - [ ] basename
 - [ ] chroot
 - [x] **date** needs arguments
-- [ ] dirname
+- [x] dirname
 - [x] **echo** needs escape of backslash
 - [ ] ~~env~~
 - [ ] expr
