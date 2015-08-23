@@ -91,7 +91,7 @@ Commands
 - [ ] ~~users~~
 - [ ] ~~who~~
 - [ ] ~~whoami~~
-- [ ] yes
+- [x] yes
 - [ ] ~~nice~~
 - [ ] nohup
 - [ ] ~~su~~
@@ -103,7 +103,7 @@ Commands
 - [ ] bg
 - [x] **cd** needs arguments
 - [ ] command
-- [ ] false
+- [ ] ~~false~~
 - [ ] fc
 - [ ] fg
 - [ ] getopts
@@ -112,7 +112,7 @@ Commands
 - [ ] newgrp
 - [x] pwd
 - [ ] read
-- [ ] true
+- [ ] ~~true~~
 - [ ] umask
 - [ ] unalias
 - [ ] wait
