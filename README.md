@@ -85,7 +85,7 @@ Commands
 - [ ] printenv
 - [ ] printf
 - [ ] sleep
-- [ ] tee
+- [x] tee
 - [ ] test
 - [ ] ~~tty~~
 - [ ] ~~users~~
