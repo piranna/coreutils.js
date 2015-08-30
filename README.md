@@ -1,19 +1,33 @@
 coreutils.js
 ============
-
-Basic command line utilities, the Javascript way
-
+Basic command line utilities, the Node.js way
 
 This project is an implementation of the
 [GNU Coreutils](http://www.gnu.org/software/coreutils) commands in Javascript,
 adding an object-oriented design and some Node.js
 [stream](http://nodejs.org/api/stream.html) features while we were there :-)
 
+
 This project has got inspiration and ~~stolen~~ borrowed code fragments from
 [shelljs](https://github.com/arturadib/shelljs) and
 [bashful](https://github.com/substack/bashful) projects, and has implemented
-some ideas from [TermKit](http://acko.net/blog/on-termkit).
+some ideas from [TermKit](http://acko.net/blog/on-termkit). The main
+characteristic diferences from GNU Coreutils are
 
+* **objects, not text**: standard coreutils are independent programs where the
+only one interface with the exterior world are character streams derived from
+the usage on a terminal, so this text needs to be parsed each time between
+commands. Coreutils.js is designed as a library of functions, so high-level
+objects can be passed between them, and each one of them implement an `inspect`
+method to be used when printing their content on a terminal to show their usual
+behaviour.
+* **streams, not lists**: for commands that generates a list of values,
+Coreutils.js return a Stream object instead of an Array (split data in time
+instead of space) since they are easily convertible between them and has a
+better performance and offers more flexibility for big data sets, reason why the
+Streams API is the standard interface in Node.js modules allowing them to be
+connected to others. Also each returned stream has an added `type` attribute to
+show the type of their contents and help to process them later.
 
 Commands
 --------
@@ -36,7 +50,7 @@ Commands
 - [ ] pr
 - [ ] ptx
 - [ ] sha1sum
-- [x] sort
+- [x] **sort**
 - [ ] split
 - [ ] sum
 - [ ] tac
@@ -53,19 +67,19 @@ Commands
 - [ ] cp
 - [ ] dd
 - [ ] df
-- [x] dir
+- [x] **dir**
 - [ ] dircolors
 - [ ] du
 - [ ] install
 - [ ] ln
-- [x] ls
+- [x] **ls**
 - [ ] mkdir
 - [ ] ~~mkfifo~~
 - [ ] ~~mknod~~
 - [ ] mv
 - [ ] rm
 - [ ] rmdir
-- [ ] sync
+- [ ] ~~sync~~
 - [ ] touch
 - [ ] vdir
 
@@ -73,7 +87,7 @@ Commands
 - [ ] basename
 - [ ] chroot
 - [x] **date** needs arguments
-- [x] dirname
+- [x] **dirname**
 - [x] **echo** needs escape of backslash
 - [ ] ~~env~~
 - [ ] expr
@@ -84,14 +98,14 @@ Commands
 - [ ] pathchk
 - [ ] printenv
 - [ ] printf
-- [ ] sleep
-- [x] tee
-- [ ] test
+- [ ] ~~sleep~~
+- [x] **tee**
+- [x] **test** needs *fd open on terminal* and inline operators
 - [ ] ~~tty~~
 - [ ] ~~users~~
 - [ ] ~~who~~
 - [ ] ~~whoami~~
-- [x] yes
+- [x] **yes**
 - [ ] ~~nice~~
 - [ ] nohup
 - [ ] ~~su~~
@@ -110,7 +124,7 @@ Commands
 - [ ] jobs
 - [ ] kill
 - [ ] newgrp
-- [x] pwd
+- [x] **pwd**
 - [ ] read
 - [ ] ~~true~~
 - [ ] umask

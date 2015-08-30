@@ -37,6 +37,7 @@
     "map-stream": "^0.1.0",
     "minimist": "^0.2.0",
     "ordered-read-streams": "0.0.8",
+    "posix": "^2.0.1",
     "readline-stream": "^1.0.0"
   }
 }
