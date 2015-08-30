@@ -23,12 +23,17 @@
   },
   "homepage": "https://github.com/piranna/coreutils.js",
   "bin": {
-    "cat":  "bin/cat.js",
-    "date": "bin/date.js",
-    "echo": "bin/echo.js",
-    "grep": "bin/grep.js",
-    "ls":   "bin/ls.js",
-    "sort": "bin/sort.js"
+    "cat":      "bin/cat.js",
+    "date":     "bin/date.js",
+    "dir":      "bin/dir.js",
+    "dirname":  "bin/dirname.js",
+    "echo":     "bin/echo.js",
+    "grep":     "bin/grep.js",
+    "hostname": "bin/hostname.js",
+    "ls":       "bin/ls.js",
+    "sort":     "bin/sort.js",
+    "tee":      "bin/tee.js",
+    "yes":      "bin/yes.js"
   },
   "dependencies": {
     "async": "^0.9.0",
