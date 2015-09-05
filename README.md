@@ -41,7 +41,7 @@ Commands
 - [ ] expand
 - [ ] fmt
 - [ ] fold
-- [ ] head
+- [x] **head** needs implement bytes counting
 - [ ] join
 - [ ] md5sum
 - [ ] nl
@@ -92,7 +92,7 @@ Commands
 - [ ] ~~env~~
 - [ ] expr
 - [ ] groups
-- [ ] hostname
+- [x] hostname
 - [ ] id
 - [ ] logname
 - [ ] pathchk
