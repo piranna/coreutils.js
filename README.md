@@ -89,7 +89,7 @@ Commands
 - [x] **date** needs arguments
 - [x] **dirname**
 - [x] **echo** needs escape of backslash
-- [ ] ~~env~~
+- [x] env
 - [ ] expr
 - [ ] groups
 - [x] hostname

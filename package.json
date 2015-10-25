@@ -28,7 +28,9 @@
     "dir":      "bin/dir.js",
     "dirname":  "bin/dirname.js",
     "echo":     "bin/echo.js",
+    "env":      "node_modules/.bin/env",
     "grep":     "bin/grep.js",
+    "head":     "bin/head.js",
     "hostname": "bin/hostname.js",
     "ls":       "bin/ls.js",
     "sort":     "bin/sort.js",
@@ -43,6 +45,7 @@
     "minimist": "^0.2.0",
     "ordered-read-streams": "0.0.8",
     "posix": "^2.0.1",
-    "readline-stream": "^1.0.0"
+    "readline-stream": "^1.0.0",
+    "usrbinenv": "^0.0.0"
   }
 }
