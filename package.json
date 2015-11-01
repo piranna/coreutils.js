@@ -33,6 +33,7 @@
     "head":     "bin/head.js",
     "hostname": "bin/hostname.js",
     "ls":       "bin/ls.js",
+    "sleep":    "bin/sleep.js",
     "sort":     "bin/sort.js",
     "tee":      "bin/tee.js",
     "yes":      "bin/yes.js"

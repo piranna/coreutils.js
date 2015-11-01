@@ -98,7 +98,7 @@ Commands
 - [ ] pathchk
 - [ ] printenv
 - [ ] printf
-- [ ] ~~sleep~~
+- [x] sleep
 - [x] **tee**
 - [x] **test** needs *fd open on terminal* and inline operators
 - [ ] ~~tty~~
