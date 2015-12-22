@@ -85,7 +85,7 @@ Commands
 
 ### sh utils
 - [ ] basename
-- [ ] chroot
+- [x] chroot
 - [x] **date** needs arguments
 - [x] **dirname**
 - [x] **echo** needs escape of backslash
@@ -127,9 +127,13 @@ Commands
 - [x] **pwd**
 - [ ] read
 - [ ] ~~true~~
-- [ ] umask
+- [x] umask
 - [ ] unalias
 - [ ] wait
 
 ### extras
+- [ ] free
 - [x] **grep** needs arguments
+- [ ] shasum
+- [ ] sha256sum
+- [ ] uptime

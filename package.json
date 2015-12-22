@@ -24,6 +24,7 @@
   "homepage": "https://github.com/piranna/coreutils.js",
   "bin": {
     "cat":      "bin/cat.js",
+    "chroot":   "bin/chroot.js",
     "date":     "bin/date.js",
     "dir":      "bin/dir.js",
     "dirname":  "bin/dirname.js",
@@ -36,6 +37,7 @@
     "sleep":    "bin/sleep.js",
     "sort":     "bin/sort.js",
     "tee":      "bin/tee.js",
+    "umask":    "bin/umask.js",
     "yes":      "bin/yes.js"
   },
   "dependencies": {
