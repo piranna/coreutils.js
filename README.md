@@ -1,5 +1,4 @@
-coreutils.js
-============
+# coreutils.js
 Basic command line utilities, the Node.js way
 
 This project is an implementation of the
@@ -29,8 +28,7 @@ Streams API is the standard interface in Node.js modules allowing them to be
 connected to others. Also each returned stream has an added `type` attribute to
 show the type of their contents and help to process them later.
 
-Commands
---------
+## Commands
 
 ### textutils
 - [x] **cat** needs show-nonprinting
@@ -130,6 +128,47 @@ Commands
 - [x] umask
 - [ ] unalias
 - [ ] wait
+
+### bash built-ins
+- [ ] bind
+- [ ] builtin
+- [ ] caller
+- [ ] compgen
+- [ ] complete
+- [ ] compopt
+- [ ] coproc
+- [ ] declare
+- [ ] dirs
+- [ ] disown
+- [ ] enable
+- [ ] eval
+- [ ] exec
+- [ ] exit
+- [ ] export
+- [ ] hash
+- [ ] help
+- [ ] history
+- [ ] let
+- [ ] local
+- [ ] logout
+- [ ] mapfile
+- [ ] popd
+- [ ] printf
+- [ ] pushd
+- [ ] readarray
+- [ ] readonly
+- [ ] set
+- [ ] shift
+- [ ] shopt
+- [ ] source
+- [ ] suspend
+- [ ] time
+- [ ] times
+- [ ] trap
+- [ ] type
+- [ ] typeset
+- [ ] ulimit
+- [ ] unset
 
 ### extras
 - [ ] free
