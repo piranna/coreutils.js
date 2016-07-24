@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/piranna/coreutils.js.svg?branch=master)](https://travis-ci.org/piranna/coreutils.js)
+[![Coverage Status](https://coveralls.io/repos/github/piranna/coreutils.js/badge.svg?branch=master)](https://coveralls.io/github/piranna/coreutils.js?branch=master)
+
 # coreutils.js
 Basic command line utilities, the Node.js way
 
