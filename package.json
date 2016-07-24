@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "async": "^2.0.1",
-    "easy-coveralls": "0.0.0",
+    "easy-coveralls": "0.0.1",
     "glob": "^7.0.5",
     "inherits": "^2.0.1",
     "map-stream": "^0.1.0",
