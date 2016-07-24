@@ -4,7 +4,7 @@
   "description": "Basic command line utilities, the Node.js way",
   "main": "lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -47,6 +47,7 @@
     "inherits": "^2.0.1",
     "map-stream": "^0.1.0",
     "minimist": "^1.2.0",
+    "mocha": "^2.5.3",
     "node-uname": "^1.0.1",
     "ordered-read-streams": "0.3.0",
     "posix": "^4.0.2",
