@@ -42,15 +42,15 @@
     "yes":      "bin/yes.js"
   },
   "dependencies": {
-    "async": "^0.9.0",
-    "glob": "^4.0.3",
+    "async": "^2.0.1",
+    "glob": "^7.0.5",
     "inherits": "^2.0.1",
     "map-stream": "^0.1.0",
-    "minimist": "^0.2.0",
-    "node-uname": "^1.0.0",
-    "ordered-read-streams": "0.0.8",
-    "posix": "^2.0.1",
-    "readline-stream": "^1.0.0",
-    "usrbinenv": "^0.0.0"
+    "minimist": "^1.2.0",
+    "node-uname": "^1.0.1",
+    "ordered-read-streams": "0.3.0",
+    "posix": "^4.0.2",
+    "readline-stream": "^1.0.1",
+    "usrbinenv": "^0.0.3"
   }
 }
