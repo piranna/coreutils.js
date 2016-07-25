@@ -1,7 +1,7 @@
 const homedir     = require('os').homedir
 const strictEqual = require('assert').strictEqual
 
-const cd = require('../lib/cd')
+const cd = require('..').cd
 
 
 describe('cd', function()

@@ -49,6 +49,7 @@
     "inherits": "^2.0.1",
     "map-stream": "^0.1.0",
     "minimist": "^1.2.0",
+    "mkdirs": "0.0.2",
     "mocha": "^2.5.3",
     "node-uname": "^1.0.1",
     "ordered-read-streams": "0.3.0",
