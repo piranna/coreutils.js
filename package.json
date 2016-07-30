@@ -58,6 +58,7 @@
     "usrbinenv": "^0.0.3"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "concat-stream": "^1.5.1"
   }
 }

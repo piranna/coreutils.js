@@ -30,4 +30,10 @@ function reduce(previousValue, currentValue)
 }
 
 
-setTimeout(noop, process.argv.slice(2).reduce(reduce, 0))
+const argv = process.argv.slice(2)
+if(argv.length)
+  return setTimeout(noop, argv.reduce(reduce, 0))
+
+// Sleep time not provided
+console.error('Needs an operand')
+process.exit(1)

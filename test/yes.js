@@ -5,7 +5,7 @@ const yes = require('..').yes
 
 describe('yes', function()
 {
-  it('no argumens', function(done)
+  it('no arguments', function(done)
   {
     yes()
     .on('error', done)
