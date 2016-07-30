@@ -56,5 +56,8 @@
     "posix": "^4.0.2",
     "readline-stream": "^1.0.1",
     "usrbinenv": "^0.0.3"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.5.1"
   }
 }
