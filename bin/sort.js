@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-var sort = require('../lib/sort')
+const sort          = require('../lib/sort')
+const InspectStream = require('../lib/common').InspectStream
 
 
 var result = sort(process.argv.slice(2))

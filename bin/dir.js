@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-var dir = require('../lib/dir')
+const dir           = require('../lib/dir')
+const InspectStream = require('../lib/common').InspectStream
 
 
 var result = dir(process.argv.slice(2))

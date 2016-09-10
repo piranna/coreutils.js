@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-var sort = require('../lib/tee')
+const tee           = require('../lib/tee')
+const InspectStream = require('../lib/common').InspectStream
 
 
 var result = tee(process.argv.slice(2))

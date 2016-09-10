@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-var sort = require('../lib/head')
+const head          = require('../lib/head')
+const InspectStream = require('../lib/common').InspectStream;
 
 
 var result = head(process.argv.slice(2))
