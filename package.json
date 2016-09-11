@@ -45,20 +45,20 @@
   "dependencies": {
     "async": "^2.0.1",
     "easy-coveralls": "0.0.1",
-    "glob": "^7.0.5",
-    "inherits": "^2.0.1",
+    "glob": "^7.0.6",
+    "inherits": "^2.0.3",
     "map-stream": "^0.1.0",
     "minimist": "^1.2.0",
     "mkdirs": "0.0.2",
-    "mocha": "^2.5.3",
     "node-uname": "^1.0.1",
     "ordered-read-streams": "0.3.0",
     "posix": "^4.0.2",
     "readline-stream": "^1.0.1",
-    "usrbinenv": "^0.0.3"
+    "usrbinenv": "^0.1.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "concat-stream": "^1.5.1"
+    "concat-stream": "^1.5.2",
+    "mocha": "^3.0.2"
   }
 }
