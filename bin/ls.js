@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-var ls = require('../lib/ls')
+var ls            = require('../lib/ls')
+var InspectStream = require('../lib/common').InspectStream
 
 
 var result = ls(process.argv.slice(2))
