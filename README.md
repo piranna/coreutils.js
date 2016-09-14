@@ -35,7 +35,7 @@ show the type of their contents and help to process them later.
 
 ### textutils
 - [x] **cat** needs show-nonprinting
-- [ ] cksum
+- [x] cksum
 - [ ] comm
 - [ ] csplit
 - [ ] cut
