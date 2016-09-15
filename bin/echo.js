@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
 var echo = require('../lib/echo')
+var InspectStream = require('../lib/common').InspectStream
 
 
 var result = echo(process.argv.slice(2))
 
-process.stdout.write(result)
+result.pipe(InspectStream()).pipe(process.stdout)

@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 
-var util = require('util')
-
-var date = require('../lib/date')
+const date = require('../lib/date')
+const InspectStream = require('../lib/common').InspectStream
 
 
 var result = date(process.argv.slice(2))
 
-process.stdout.write(util.inspect(result))
+result.pipe(InspectStream()).pipe(process.stdout)
