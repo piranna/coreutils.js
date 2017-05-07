@@ -1,8 +1,8 @@
-const assert   = require('assert')
-const fs       = require('fs')
-const Readable = require('stream').Readable
+const assert = require('assert')
+const fs     = require('fs')
 
 const concat = require('concat-stream')
+const str    = require('string-to-stream')
 
 const cat = require('..').cat
 
@@ -13,9 +13,7 @@ describe('cat', function()
   {
     const expected = 'asdf'
 
-    const stdin = new Readable({read: function(){}})
-          stdin.push(expected)
-          stdin.push(null)
+    const stdin = str(expected)
 
     cat.call(stdin)
     .on('error', done)
