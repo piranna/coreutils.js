@@ -44,7 +44,7 @@
     "yes": "bin/yes.js"
   },
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^2.4.0",
     "easy-coveralls": "0.0.1",
     "glob": "^7.1.1",
     "inherits": "^2.0.3",
@@ -60,7 +60,8 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "concat-stream": "^1.5.2",
-    "mocha": "^3.2.0"
+    "concat-stream": "^1.6.0",
+    "mocha": "^3.3.0",
+    "string-to-stream": "^1.1.0"
   }
 }
