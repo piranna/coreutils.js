@@ -50,7 +50,7 @@
     "inherits": "^2.0.3",
     "map-stream": "^0.1.0",
     "minimist": "^1.2.0",
-    "mkdirs": "0.0.2",
+    "mkdirp": "^0.5.1",
     "node-uname": "^1.0.1",
     "ordered-read-streams": "1.0.0",
     "posix": "^4.1.1",
