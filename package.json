@@ -45,14 +45,14 @@
   },
   "dependencies": {
     "async": "^2.4.0",
-    "easy-coveralls": "0.0.1",
+    "easy-coveralls": "^0.0.1",
     "glob": "^7.1.1",
     "inherits": "^2.0.3",
     "map-stream": "^0.1.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "node-uname": "^1.0.1",
-    "ordered-read-streams": "1.0.0",
+    "ordered-read-streams": "^1.0.1",
     "posix": "^4.1.1",
     "readline-stream": "^1.0.1",
     "string-to-stream": "^1.1.0",
@@ -61,7 +61,6 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "concat-stream": "^1.6.0",
-    "mocha": "^3.3.0",
-    "string-to-stream": "^1.1.0"
+    "mocha": "^3.3.0"
   }
 }
