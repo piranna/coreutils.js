@@ -74,7 +74,7 @@ show the type of their contents and help to process them later.
 - [ ] install
 - [ ] ln
 - [x] **ls**
-- [ ] mkdir
+- [x] mkdir
 - [ ] ~~mkfifo~~
 - [ ] ~~mknod~~
 - [ ] mv
