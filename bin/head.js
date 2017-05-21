@@ -1,9 +1,14 @@
 #!/usr/bin/env node
 
-const head          = require('../lib/head')
-const InspectStream = require('../lib/common').InspectStream;
+const head   = require('../lib/head')
+const common = require('../lib/common')
+
+const decodeArguments = common.decodeArguments
+const InspectStream   = common.InspectStream
 
 
-var result = head(process.argv.slice(2))
+const args = decodeArguments(process.argv.slice(2))
 
-result.pipe(InspectStream()).pipe(process.stdout)
+let result = head(args)
+
+process.stdin.pipe(result).pipe(InspectStream()).pipe(process.stdout)

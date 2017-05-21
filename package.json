@@ -52,9 +52,9 @@
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "node-uname": "^1.0.1",
-    "ordered-read-streams": "^1.0.1",
+    "ordered-read-streams": "piranna/ordered-read-streams",
     "posix": "^4.1.1",
-    "readline-stream": "^1.0.1",
+    "readline-stream": "^1.0.2",
     "string-to-stream": "^1.1.0",
     "usrbinenv": "^0.1.0"
   },
