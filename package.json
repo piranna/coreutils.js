@@ -44,6 +44,7 @@
     "yes": "bin/yes.js"
   },
   "dependencies": {
+    "argparse": "^1.0.9",
     "async": "^2.4.0",
     "easy-coveralls": "^0.0.1",
     "glob": "^7.1.1",

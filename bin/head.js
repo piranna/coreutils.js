@@ -3,12 +3,16 @@
 const head   = require('../lib/head')
 const common = require('../lib/common')
 
-const decodeArguments = common.decodeArguments
-const InspectStream   = common.InspectStream
+const InspectStream = common.InspectStream
 
 
-const args = decodeArguments(process.argv.slice(2))
+const args = head.decodeArguments(process.argv.slice(2))
 
 let result = head(args)
 
-process.stdin.pipe(result).pipe(InspectStream()).pipe(process.stdout)
+//if(args.file.length > 1) result = head.verbose(result, args)
+
+const files = args.file
+if(!files.length || files.includes('-')) process.stdin.pipe(result)
+
+result.pipe(InspectStream()).pipe(process.stdout)
