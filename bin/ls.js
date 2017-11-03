@@ -1,15 +1,11 @@
 #!/usr/bin/env node
 
-var ls            = require('../lib/ls')
-var InspectStream = require('../lib/common').InspectStream
+const ls = require('../lib/ls')
 
 
 var result = ls(process.argv.slice(2))
 
-result.pipe(InspectStream()).pipe(process.stdout)
-
-return  // Testing
-
+result.pipe(process.stdout)
 
 try
 {

@@ -26,6 +26,7 @@
   "bin": {
     "cat": "bin/cat.js",
     "chroot": "bin/chroot.js",
+    "cp": "bin/cp.js",
     "date": "bin/date.js",
     "dir": "bin/dir.js",
     "dirname": "bin/dirname.js",
@@ -34,8 +35,12 @@
     "grep": "bin/grep.js",
     "head": "bin/head.js",
     "hostname": "bin/hostname.js",
+    "ln": "bin/ln.js",
     "ls": "bin/ls.js",
+    "mkdir": "bin/mkdir.js",
+    "mv": "bin/mv.js",
     "pwd": "bin/pwd.js",
+    "rm": "bin/rm.js",
     "sleep": "bin/sleep.js",
     "sort": "bin/sort.js",
     "tee": "bin/tee.js",
@@ -46,6 +51,8 @@
   "dependencies": {
     "argparse": "^1.0.9",
     "async": "^2.4.0",
+    "cli-columns": "^3.0.0",
+    "columnify": "^1.5.4",
     "easy-coveralls": "^0.0.1",
     "glob": "^7.1.1",
     "inherits": "^2.0.3",
@@ -62,6 +69,6 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "concat-stream": "^1.6.0",
-    "mocha": "^3.3.0"
+    "mocha": "^3.4.1"
   }
 }

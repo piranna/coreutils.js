@@ -199,6 +199,7 @@ describe('head', function()
 
 //stdin from file
 //stdin from multiple file
+// -n 3
 
 
 
