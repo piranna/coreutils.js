@@ -5,7 +5,9 @@
   "main": "lib",
   "scripts": {
     "coveralls": "easy-coveralls",
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -57,11 +59,13 @@
     "posix": "^4.1.1",
     "readline-stream": "^1.0.2",
     "string-to-stream": "^1.1.0",
-    "usrbinenv": "^0.1.0"
+    "usrbinenv": "^0.1.0",
+    "snyk": "^1.526.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "concat-stream": "^1.6.0",
     "mocha": "^3.3.0"
-  }
+  },
+  "snyk": true
 }
