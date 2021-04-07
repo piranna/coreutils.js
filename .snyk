@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - easy-coveralls > jscoverage > debug:
+        patched: '2021-04-07T00:47:41.523Z'
+  'npm:ejs:20161128':
+    - easy-coveralls > jscoverage > ejs:
+        patched: '2021-04-07T00:47:41.523Z'
+  'npm:ms:20170412':
+    - easy-coveralls > jscoverage > debug > ms:
+        patched: '2021-04-07T00:47:41.523Z'
