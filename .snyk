@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - easy-coveralls > jscoverage > debug:
+        patched: '2022-10-05T20:18:26.773Z'
+  'npm:ejs:20161128':
+    - easy-coveralls > jscoverage > ejs:
+        patched: '2022-10-05T20:18:26.773Z'
+  'npm:hoek:20180212':
+    - easy-coveralls > coveralls > request > hawk > hoek:
+        patched: '2022-10-05T20:18:26.773Z'
+    - easy-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2022-10-05T20:18:26.773Z'
+    - easy-coveralls > coveralls > request > hawk > sntp > hoek:
+        patched: '2022-10-05T20:18:26.773Z'
+    - easy-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T20:18:26.773Z'
+  'npm:ms:20170412':
+    - easy-coveralls > jscoverage > debug > ms:
+        patched: '2022-10-05T20:18:26.773Z'
+  'npm:tunnel-agent:20170305':
+    - easy-coveralls > coveralls > request > tunnel-agent:
+        patched: '2022-10-05T20:18:26.773Z'
